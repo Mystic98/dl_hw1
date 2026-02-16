@@ -1,0 +1,27 @@
+# uv / venv
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.python-version
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Linters / type checkers
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+# OS
+.DS_Store
